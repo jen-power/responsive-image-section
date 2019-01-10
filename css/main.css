@@ -36,6 +36,7 @@ h1 {
 
 p {
   margin-top: 0;
+  text-align: left;
 }
 
 .btn {
@@ -64,9 +65,22 @@ p {
     line-height: 1.4;
   }
 
+  h1 {
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
   div {
     display: inline-block;
+    vertical-align: middle;
     width: 49%;
+  }
+
+  .img-flex {
+    padding: 0;
   }
 
   .text {
@@ -84,6 +98,8 @@ html {
 
 div {
   vertical-align: middle;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .img {
@@ -99,4 +115,4 @@ div {
 
   html {
     font-size: 130%;
-  }
+}
