@@ -48,6 +48,10 @@ p {
   padding: .5em .75em;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 .img-flex {
   width: 100%;
   display: block;
