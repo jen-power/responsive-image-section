@@ -25,7 +25,7 @@ section {
   background-color: #e2e2e2;
 }
 
-div {
+.text {
   padding: 1rem;
 }
 
@@ -49,6 +49,7 @@ p {
 
 .img-flex {
   width: 100%;
+  display: block;
   padding-bottom: 1rem;
 }
 
@@ -63,11 +64,35 @@ p {
     line-height: 1.4;
   }
 
+  div {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .text {
+    padding: 2rem 1rem;
+  }
+
+  }
+
 @media only screen and (min-width: 60em) {
 
 html {
   font-size: 120%;
   line-height: 1.5;
+}
+
+div {
+  vertical-align: middle;
+}
+
+.img {
+  max-width: 25em;
+}
+
+.img-flex {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media only screen and (min-width: 90em) {
