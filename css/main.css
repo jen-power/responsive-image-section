@@ -56,6 +56,10 @@ p {
 
 @media only screen and (min-width: 25em) {
 
+  p {
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -87,32 +91,36 @@ p {
     padding: 2rem 1rem;
   }
 
-  }
+}
 
 @media only screen and (min-width: 60em) {
 
-html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
-div {
-  vertical-align: middle;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
+  div {
+    vertical-align: middle;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 
-.img {
-  max-width: 25em;
-}
+  .img {
+    max-width: 25em;
+  }
 
-.img-flex {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .img-flex {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
 }
