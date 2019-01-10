@@ -127,4 +127,8 @@ a:hover {
     font-size: 130%;
   }
 
+  img {
+    text-align: center;
+  }
+
 }
